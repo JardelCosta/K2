@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\K2.CalculaJuros.Application\K2.CalculaJuros.Application.csproj" />
+    <ProjectReference Include="..\K2.CalculaJuros\K2.CalculaJuros.csproj" />
   </ItemGroup>
 
 </Project>

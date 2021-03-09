@@ -25,6 +25,9 @@ namespace K2.CalculaJuros.Controllers
         public async Task<IActionResult> Get(double valorInicial, int meses)
         {
             var response = await _service.ObterTaxaDeJuro();
+            if (response == null)
+                return BadRequest("Não foi possível obter a taxa de juros");
+            
             var responseBody = await response.Content.ReadAsStringAsync();
 
             if ((int)response.StatusCode >= 200 &&
