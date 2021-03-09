@@ -8,7 +8,8 @@ namespace K2.CalculaJuros.Application.Services
     public class CalculaJurosService : ICalculaJurosService
     {
         private readonly IHttpClientFactory _clientFactory;
-        private readonly string apiUrl = "https://localhost:44344/taxajuros/";
+        //private readonly string apiUrl = "http://172.22.0.3/taxajuros/";
+        private readonly string apiUrl = "http://k2.juros:80/taxajuros";
 
         public CalculaJurosService(IHttpClientFactory clientFactory)
         {

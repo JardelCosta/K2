@@ -6,7 +6,7 @@ using System.Text;
 
 namespace K2.Application.Services
 {
-    public class AppService : IAppService
+    public class JuroService : IJuroService
     {
         public double GetTaxa()
         {

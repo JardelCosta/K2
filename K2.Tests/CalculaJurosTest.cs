@@ -1,5 +1,7 @@
+using K2.Application.Services.Interfaces;
 using K2.CalculaJuros.Application.Services;
 using K2.CalculaJuros.Controllers;
+using K2.Juros.Controllers;
 using Moq;
 using System;
 using System.Net.Http;
@@ -32,17 +34,5 @@ namespace K2.Tests
             Assert.Equal("6348,67", resultado4);
         }
 
-        [Fact]
-        public async Task IndexPost_ReturnsARedirectAndAddsSession_WhenModelStateIsValid()
-        {
-            // Arrange
-            var mockRepo = new Mock<ICalculaJurosService>();
-            var controller = new HomeController(mockRepo.Object);
-
-            // Act
-            
-
-            // Assert
-        }
     }
 }

@@ -13,9 +13,9 @@ namespace K2.Juros.Controllers
     [Route("[controller]")]
     public class HomeController : ControllerBase
     {
-        private readonly IAppService _appService;
+        private readonly IJuroService _appService;
 
-        public HomeController(IAppService appService)
+        public HomeController(IJuroService appService)
         {
             _appService = appService;
         }

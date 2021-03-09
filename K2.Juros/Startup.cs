@@ -28,7 +28,7 @@ namespace K2.Juros
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IAppService, AppService>();
+            services.AddScoped<IJuroService, JuroService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -45,8 +45,6 @@ namespace K2.Juros
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "K2.Juros v1"));
             }
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 

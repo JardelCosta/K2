@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  k2.calculajuros:
+    container_name: k2.calculajuros
+    image: k2calculajuros
+    networks:
+      - k2_default
+    build:
+      context: .
+      dockerfile: K2.CalculaJuros/Dockerfile
+  
+  k2.juros:
+    container_name: k2.juros
+    image: k2juros
+    networks:
+      - k2_default
+    build:
+      context: .
+      dockerfile: K2.Juros/Dockerfile
+
+networks:
+  k2_default:
+    driver: bridge
+  

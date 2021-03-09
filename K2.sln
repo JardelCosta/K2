@@ -13,11 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculaJuros", "CalculaJuro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Juros", "Juros", "{15C9F99F-6C46-496B-9847-4E9A72A81553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K2.CalculaJuros.Application", "K2.CalculaJuros.Application\K2.CalculaJuros.Application.csproj", "{E82C712F-AC07-45AD-B39D-87C6F9DDE102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K2.CalculaJuros.Application", "K2.CalculaJuros.Application\K2.CalculaJuros.Application.csproj", "{E82C712F-AC07-45AD-B39D-87C6F9DDE102}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5EEC4B5D-4776-41E9-9F03-3FCAA56813B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K2.Tests", "K2.Tests\K2.Tests.csproj", "{CCFF377B-D533-43AB-829B-7C500F387D9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K2.Tests", "K2.Tests\K2.Tests.csproj", "{CCFF377B-D533-43AB-829B-7C500F387D9E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BC79DA50-58E2-47C5-824E-E80C454366A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CCFF377B-D533-43AB-829B-7C500F387D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCFF377B-D533-43AB-829B-7C500F387D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCFF377B-D533-43AB-829B-7C500F387D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC79DA50-58E2-47C5-824E-E80C454366A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC79DA50-58E2-47C5-824E-E80C454366A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC79DA50-58E2-47C5-824E-E80C454366A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC79DA50-58E2-47C5-824E-E80C454366A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

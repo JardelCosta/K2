@@ -17,3 +17,7 @@
 /K2.CalculaJuros.Application/bin/Debug/netcoreapp3.1
 /K2.Tests/bin/Debug/netcoreapp3.1
 /.vs/K2/DesignTimeBuild
+/bin/Debug
+/obj
+/K2.Application/K2.Application.csproj.user
+/K2.CalculaJuros/K2.CalculaJuros.csproj.user
