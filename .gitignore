@@ -10,3 +10,6 @@
 /K2.Tests/obj
 /K2.Juros/K2.Juros.csproj.user
 /.vs/K2/v16
+/K2.Application/bin/Debug/netcoreapp3.1
+/K2.Juros/bin/Debug/netcoreapp3.1
+/.vs/K2/config
