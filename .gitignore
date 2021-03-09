@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/K2.Application/obj
+/K2.CalculaJuros/obj
+/K2.CalculaJuros.Application/obj
+/K2.Juros/bin/Debug/net5.0
+/K2.Juros/obj
+/K2.Tests/obj
+/K2.Juros/K2.Juros.csproj.user
+/.vs/K2/v16
